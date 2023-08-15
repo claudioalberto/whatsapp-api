@@ -56,7 +56,7 @@ ENV STORE_CONTACTS=false
 ENV STORE_CHATS=false
 
 ENV DATABASE_ENABLED=false
-ENV DATABASE_CONNECTION_URI='mongodb://<USER>:<PASSWORD>@<HOST>/?authSource=admin&readPreference=primary&ssl=false&directConnection=true'
+ENV DATABASE_CONNECTION_URI='mongodb://mongo:JPWqTI1PdkGAdfHcgFjw@containers-us-west-119.railway.app:5893'
 ENV DATABASE_CONNECTION_DB_PREFIX_NAME='codechat'
 ENV DATABASE_SAVE_DATA_INSTANCE=false
 ENV DATABASE_SAVE_DATA_OLD_MESSAGE=false
